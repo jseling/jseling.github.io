@@ -34,6 +34,15 @@ O **obj** diz que é um *objeto*, e se você seguir o texto encontrará um **end
 
 Os **chevrons << >>** indicam que o objeto 41 é do tipo *Dictionary*. Um dicionário é um tipo de dado frequente em arquivos PDF, eles possuem uma lista de pares chave-valor descrevendo algum aspecto do documento. O valor pode ser de qualquer a um dos 8 tipos de dados, incluindo outro dicionário.
 
+O dicionário mostrado no exemplo possui 3 chaves: */Type*, */Kids* e */Count*. Elas são **objetos nomeados**, e pode-se notar isso pois eles começam com uma barra **/**. Um objeto nomeado é basicamente uma propriedade que tem um significado para o leitor de PDF. **As chaves em dicionários são sempre objetos nomeados**.
+
+Este dicionário informa que possui informações sobre páginas, pois a chave **/Type** tem o valor */Pages*.
+
+A seguir há um **array** informando os objetos filhos deste objeto. Isso é representado pela chave **/Kids** com um array contendo referências para os objetos 34, 43 e 52. Isso define que esses três objetos são filhos do 41.
+
+Arrays são deliminatos por colchetes **[]**. As referências dentro do array tem uma notação parecida com a declaração dos objetos, só que em vez de *obj*, elas possuem um **R**. Assim, se desejar criar uma referência para o objeto *41 0 obj*, é só escrever *41 0 R*.
+
+A última chave do dicionário é o objeto nomeado **/Count** com o valor 3. Assim o objeto 41 informa que este documento possui 3 páginas e você pode encontrar informações sobre cada uma nos objetos 34, 43 e 52.
 
 ### Referências
 - [IDR: Learning about PDF](https://blog.idrsolutions.com/2009/08/learning-about-pdf/)
