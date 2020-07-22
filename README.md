@@ -44,6 +44,20 @@ Arrays são deliminatos por colchetes **[]**. As referências dentro do array te
 
 A última chave do dicionário é o objeto nomeado **/Count** com o valor 3. Assim o objeto 41 informa que este documento possui 3 páginas e você pode encontrar informações sobre cada uma nos objetos 34, 43 e 52.
 
+
+### 2 - Estrutura de um arquivo PDF
+
+### 3 - Criação de um PDF não-funcional
+
+### 4 - Criação de uma página em branco
+
+### 5 - Hello world
+
+### 6 - Path objects
+
+### 7 - Graphics State
+
+
 ### Referências
 - [IDR: Learning about PDF](https://blog.idrsolutions.com/2009/08/learning-about-pdf/)
 - [IDR: Make your own PDF file](https://blog.idrsolutions.com/2010/09/grow-your-own-pdf-file-part-1-pdf-objects-and-data-types/)
