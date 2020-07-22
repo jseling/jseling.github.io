@@ -16,7 +16,7 @@ Cada objeto deve ser de um dos oito tipos de dados que um leitor de PDF pode ent
 - Booleanos (verdadeiro/falso);
 - Objetos nomeados (veremos a seguir);
 - Arrays associados (chamados de *dictionarys*);
-- Streams (que consiste em um dicionário e uma carga de dados binários)
+- Streams (que consiste em um dicionário e uma carga de dados binários);
 - Objeto nulo.
 
 Se você abrir um PDF no bloco de notas verá vários objetos, aqui um exemplo:
